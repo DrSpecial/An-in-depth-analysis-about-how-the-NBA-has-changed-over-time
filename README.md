@@ -1,13 +1,13 @@
 Missing the shot?: An in depth analysis about how the NBA has changed over time
 ================
 
-## Authors: 
+## Authors 
   * Roshan Verma
   * Ben Pilon
   * Kaiming Xia
   * Shiloh Xu
 
-### **Introduction**
+## **Introduction**
 
 The National Basketball Association has been a pillar of popculture over
 the last 40 years. Icons like Michael Jordan, Kobe Bryant, Lebron James,
@@ -28,7 +28,7 @@ Report, our analysis will center on answering the question
 > league has changed substantially in terms of composition and style of
 > play. ***
 
-### **Background**
+## **Background**
 
 The data used in this report consists of 3 datasets. The first data set
 is basic box stats(points, rebounds, assists, games played, minutes, 3
@@ -142,7 +142,9 @@ examination of changing shot selections, then investigating how
 rebounding and height have changed in the league, before finally looking
 at assists and ball movement.
 
-### 1) How does a players age change their overall impact on a game in terms of games played, points scored, rebounds grabbed, and assists given, has this changed over time?
+## Questions
+
+### 1: How does a players age change their overall impact on a game in terms of games played, points scored, rebounds grabbed, and assists given, has this changed over time?
 
 > > For these questions we wanted to examine how the performance of
 > > different age groups has changed throughout time. We did this by
@@ -601,7 +603,7 @@ a decline in rebounding ability in this decade, which could be due to
 other changes in how the game was played making rebounding less valuable
 to team strategy and/or rebounds being less available.
 
-### 2a) How has the composition of the league regarding origin of players changed over the selected period (1976-2017)
+### 2a: How has the composition of the league regarding origin of players changed over the selected period (1976-2017)
 
 > > Every player was sorted into a category based on whether their
 > > school was one of the 10 most winning programs in US college
@@ -722,11 +724,11 @@ The graphical visualization of this change is interesting because there
 is clearly a large drop in the number of players in the league in total
 while the number of international players seems to be slowly increasing.
 
-### 2B) It is common knowlege that there are certain elite colleges who are the best at creating NBA level talent. If the competition for a NBA team roster is fiercer as indicated above, we would expect to see the largest differece between performance of players from Elite colleges and Non-Elite colleges in more recent decades.
+### 2b: It is common knowlege that there are certain elite colleges who are the best at creating NBA level talent. If the competition for a NBA team roster is fiercer as indicated above, we would expect to see the largest differece between performance of players from Elite colleges and Non-Elite colleges in more recent decades.
 
 ![](nba_analysis_files/figure-gfm/q2a%20graphs-1.png)<!-- -->
 
-# 2C) A regression analysis of school program affects scoring averages in the NBA
+### 2c: A regression analysis of school program affects scoring averages in the NBA
 
 *H*<sub>0</sub>: *β*<sub>elite</sub> = *β*<sub>other</sub>  
 *H*<sub>*A*</sub>: *β*<sub>elite</sub> ≠ *β*<sub>other</sub>
@@ -900,7 +902,7 @@ reasonable indicators for a player’s success in a given decade because
 not only does scoring in an NBA game matter, but the number one asset to
 a player is their longevity.
 
-### 3) Has shot selection actually changed, or is this merely a myth related to the dominance of current players like Steph Curry and James Harden
+### 3: Has shot selection actually changed, or is this merely a myth related to the dominance of current players like Steph Curry and James Harden
 
 > > To best look at this question, first 3 point data had to be
 > > computed. This was done by subtracting 2 point data from field goal
@@ -919,7 +921,7 @@ increasing over time, which paired with the fact that the percent of
 shots that are 2 pointers is decreasing suggests that many of these
 “new” shots are 3 point shots.
 
-### 4a) Analyzing changes in total rebounds in different eras.
+### 4a: Analyzing changes in total rebounds in different eras.
 
 ![](nba_analysis_files/figure-gfm/question%204a%20graphical%20analysis-1.png)<!-- -->![](nba_analysis_files/figure-gfm/question%204a%20graphical%20analysis-2.png)<!-- -->
 
@@ -972,7 +974,7 @@ to be much more even.
 We further explore the reasoning for why size may not matter as much in
 rebounding in the new era, and why rebounding as a whole has decreased.
 
-# 4b) Looking at effective Field Goal percentage
+### 4b: Looking at effective Field Goal percentage
 
 <div id="qmrocrihsh"
 style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
@@ -1143,7 +1145,7 @@ scores successfully.
 For numerical confirmation, we list the first 10 years of the dataset
 and the last 10 years and notice the same trend.
 
-### 5a): How has the rise in 3 Point shooting changed over the past decades?
+### 5a: How has the rise in 3 Point shooting changed over the past decades?
 
 ![](nba_analysis_files/figure-gfm/Question5a-1.png)<!-- -->
 
@@ -1153,7 +1155,7 @@ defined as how many three pointers players have made. From the boxplot
 above, there is a clear pattern that the percentage of three pointers
 has been increased steadily over the years.
 
-### 5b) Change of assists in terms of three point percentage over the past years?
+### 5b: Change of assists in terms of three point percentage over the past years?
 
 > > For this analysis, we look at assists in terms of the number of
 > > times the player assisted others. We believe that players who give
@@ -1227,7 +1229,7 @@ these two much lower on their total assists. On the contrary, players
 who have three point percentage of 0-24% and 25-49% are the most common
 and therefore, play many games and have higher assists rate.
 
-### 5c) How does 3pt shot performance impacts the total number of scores for each player over the past years?
+### 5c: How does 3pt shot performance impacts the total number of scores for each player over the past years?
 
 
 <div id="brmodopnpd"
@@ -1473,7 +1475,7 @@ that players who have a higher three point hit rate tends to have played
 fewer games than those who have a relatively lower hit rate. The pattern
 is pretty consistent across decades.
 
-## Question 6: Which Position group is the most valuable?
+### 6: Which Position group is the most valuable?
 
 
 <div id="ypapqsiagl"
