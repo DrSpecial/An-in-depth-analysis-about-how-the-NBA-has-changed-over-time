@@ -1,9 +1,11 @@
-nba\_analysis
+Missing the shot?: An in depth analysis about how the NBA has changed over time
 ================
 
-## Authors: Roshan Verma, Ben Pilon, Kaiming Xia, Shiloh Xu
-
-### Stat 240 Final Project Fall 2020. Discussion Group 5
+## Authors: 
+  * Roshan Verma
+  * Ben Pilon
+  * Kaiming Xia
+  * Shiloh Xu
 
 ### **Introduction**
 
